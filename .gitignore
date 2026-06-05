@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+codeaudit-report.html
+report.html
+report.json
+*-report.html
+*-report.json
+.jscpd-report/
+.gitleaks-report.json

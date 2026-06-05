@@ -1,0 +1,10 @@
+# codeaudit Python dependencies
+# Core tool uses only the stdlib — these enable full-coverage scanning.
+
+semgrep>=1.50.0   # security/correctness SAST across ~30 languages
+
+# The following scanners are NOT pip packages. Install separately:
+#   jscpd        -> npm i -g jscpd
+#   osv-scanner  -> go install github.com/google/osv-scanner/cmd/osv-scanner@latest
+#   gitleaks     -> https://github.com/gitleaks/gitleaks#installing
+# See bootstrap.sh to install everything at once.
